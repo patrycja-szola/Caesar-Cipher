@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesar Cipher Encoder</title>
+<link rel="stylesheet" href="src/style.css">
+
+
+</head>
+<body>
+  <h1>Caesar Cipher Encoder</h1>
+  <form onsubmit="encodeText(event)">
+    <label for="message">Enter your message:</label>
+    <input type="text" id="message" required>
+    <label for="shiftAmount">Enter the shift amount:</label>
+    <input type="number" id="shiftAmount" required>
+    <button type="submit">Encode Message</button>
+  </form>
+  <div id="result"></div>
+  <script src="src/app.js">
+    
+  </script>
+</body>
+</html>
