@@ -11,7 +11,18 @@
 </head>
 <body>
   <h1>Caesar Cipher Encoder</h1>
-  <form onsubmit="encodeText(event)">
+  <p class="main">What is Caesar Cipher?<br /></p>
+
+    The Caesar cipher (or Caesar code) is a monoalphabetic substitution cipher, where each letter is replaced by another letter located a little further in the alphabet (therefore shifted but always the same for given cipher message).
+The shift distance is chosen by a number called the offset, which can be right (A to B) or left (B to A).
+For every shift to the right (of +N), there is an equivalent shift to the left (of 26-N) because the alphabet rotates on itself, the Caesar code is therefore sometimes called a rotation cipher.
+<p class="main">Why the name Caesar Cipher?</p>
+Caesar (Caius Iulius Caesar) used this technique for some correspondences, especially military, for example with Cicerone (shift of 3).
+
+However, it is possible that other civilizations also used it independently.
+<p class="main">What is August Cipher?</p>
+August Cipher is sometimes the name given to Caesar Cipher with a shift of 1.</p>
+<form onsubmit="encodeText(event)">
     <label for="message">Enter your message:</label>
     <input type="text" id="message" required>
     <label for="shiftAmount">Enter the shift amount:</label>
